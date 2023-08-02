@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBox {
+  height: 30px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: rgb(133, 223, 110);
+  width: 95px;
+  height: 35px;
+  margin-left: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(109, 158, 29);
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.text {
+  width: 200px;
+  text-emphasis: wrap;
+}
+
+.cross {
+  text-decoration: line-through;
+}
